@@ -2,10 +2,10 @@ prefix=@PREFIX@
 libdir=@LIBDIR@
 includedir=@INCLUDEDIR@
 
-Name: tree-sitter-web_idl
-Description: WebIdl grammar for tree-sitter
+Name: tree-sitter-idl
+Description: Idl grammar for tree-sitter
 URL: @URL@
 Version: @VERSION@
 Requires: @REQUIRES@
-Libs: -L${libdir} @ADDITIONAL_LIBS@ -ltree-sitter-web_idl
+Libs: -L${libdir} @ADDITIONAL_LIBS@ -ltree-sitter-idl
 Cflags: -I${includedir}

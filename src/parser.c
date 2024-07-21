@@ -7604,7 +7604,7 @@ extern "C" {
 #define TS_PUBLIC __attribute__((visibility("default")))
 #endif
 
-TS_PUBLIC const TSLanguage *tree_sitter_web_idl(void) {
+TS_PUBLIC const TSLanguage *tree_sitter_idl(void) {
   static const TSLanguage language = {
     .version = LANGUAGE_VERSION,
     .symbol_count = SYMBOL_COUNT,

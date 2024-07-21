@@ -3,10 +3,10 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tree-sitter-web-idl"
-description = "WebIdl grammar for tree-sitter"
+name = "tree-sitter-idl"
+description = "Idl grammar for tree-sitter"
 version = "0.0.1"
-keywords = ["incremental", "parsing", "tree-sitter", "web-idl"]
+keywords = ["incremental", "parsing", "tree-sitter", "idl"]
 classifiers = [
   "Intended Audience :: Developers",
   "License :: OSI Approved :: MIT License",
@@ -19,7 +19,7 @@ license.text = "MIT"
 readme = "README.md"
 
 [project.urls]
-Homepage = "https://github.com/tree-sitter/tree-sitter-web-idl"
+Homepage = "https://github.com/tree-sitter/tree-sitter-idl"
 
 [project.optional-dependencies]
 core = ["tree-sitter~=0.21"]

@@ -1,4 +1,4 @@
-module github.com/tree-sitter/tree-sitter-web_idl
+module github.com/tree-sitter/tree-sitter-idl
 
 go 1.22
 

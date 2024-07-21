@@ -1,5 +1,5 @@
 {
-  "name": "web_idl",
+  "name": "idl",
   "rules": {
     "source_file": {
       "type": "REPEAT",

@@ -1,6 +1,6 @@
 VERSION := 0.0.1
 
-LANGUAGE_NAME := tree-sitter-web_idl
+LANGUAGE_NAME := tree-sitter-idl
 
 # repository
 SRC_DIR := src

@@ -1,5 +1,5 @@
 module.exports = grammar({
-  name: 'web_idl',
+  name: 'idl',
 
   rules: {
     source_file: $ => repeat($._definition),

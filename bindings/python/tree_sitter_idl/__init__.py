@@ -1,4 +1,4 @@
-"WebIdl grammar for tree-sitter"
+"Idl grammar for tree-sitter"
 
 from ._binding import language
 
